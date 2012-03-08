@@ -4,10 +4,10 @@ Contains example failing specs that need fixing.
 
 ### Running tests
 
-    git clone git@github.com:taylorleese/specs-fix-me.git
-    cd specs-fix-me
-    sbt
-
+    $ git clone git@github.com:taylorleese/specs-fix-me.git
+    $ cd specs-fix-me
+    $ sbt
+    
     > test
     [info] CoinSpecs
     [info]
@@ -33,7 +33,7 @@ Contains example failing specs that need fixing.
     [info]
     [error] Failed: : Total 5, Failed 5, Errors 0, Passed 0, Skipped 0
     [error] Failed tests:
-    [error] 	com.specsfixme.tests.CoinSpecs
+    [error]     com.specsfixme.tests.CoinSpecs
     [error] {file:/Users/tleese/specs-fix-me/}default-8b812d/test:test: Tests unsuccessful
     [error] Total time: 1 s, completed Mar 8, 2012 2:34:51 AM
     >
