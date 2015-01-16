@@ -4,12 +4,8 @@ organization := "com.specsfixme"
 
 version := "0.1.0-SNAPSHOT"
 
-scalaVersion := "2.9.2"
+scalaVersion := "2.11.5"
 
 libraryDependencies ++= Seq(
-  "org.specs2" %% "specs2" % "1.12.3" % "test",
-  "org.mockito" % "mockito-all" % "1.9.0" % "test"
+  "org.specs2" %% "specs2-core" % "2.4.15" % "test"
 )
-
-logBuffered := false
-
